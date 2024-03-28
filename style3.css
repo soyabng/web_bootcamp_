@@ -1,0 +1,37 @@
+
+body {
+    font-family:'Lucida Sans', Verdana, sans-serif;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #e51fc7;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+ol {
+    text-align: center;
+    list-style-type: none;
+}
+
+ol>li {
+    font-weight: bold;
+    border: 1px solid #e51fc7;
+    border-radius: 25px;
+    width: 300px;
+    margin: 5px auto;
+    padding: 10px;
+    transition: 0.2s;
+}
+
+ol>li:hover {
+    background-color: #e048c9;
+    color: white;
+}
